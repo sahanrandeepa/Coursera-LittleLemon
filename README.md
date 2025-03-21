@@ -43,13 +43,16 @@ This project is a fully functional **REST API** for the **Little Lemon** restaur
    cd little-lemon-api  
 
 2. **Create a virtual environment**
+   
    pipenv install  
    pipenv shell
 
-3. **Apply migrations**
+4. **Apply migrations**
+   
    python manage.py migrate  
 
-4. **Run the server**
+6. **Run the server**
+   
    python manage.py runserver  
 
 
